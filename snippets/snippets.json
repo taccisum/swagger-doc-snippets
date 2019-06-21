@@ -1,0 +1,42 @@
+{
+    "Swagger_Annotation": {
+        "prefix": "swagger doc",
+        "body": [
+            "/**",
+            "* @summary $1",
+            "* @description $2",
+            "* @router ${3:get} ${4:/}",
+            "* @request ${5:query} ${6:string} ${7:field_name} ${9:desc}",
+            "* @response ${9:200} ${10:model} ${11:desc}",
+            "*/"
+        ],
+        "description": "swagger doc"
+    },
+    "Swagger_Controller": {
+        "prefix": "swagger controller",
+        "body": [
+            "/**",
+            "* @controller $1",
+            "*/"
+        ],
+        "description": "swagger controller"
+    },
+    "Swagger_Contract": {
+        "prefix": "swagger contract",
+        "body": [
+            "module.exports = {",
+            "  $1: {",
+            "    $2: { type: '${3:string}', required: ${4:true}, example: '${5:ex}' },$0",
+            "  }",
+            "};"
+        ],
+        "description": "swagger contract"
+    },
+    "Swagger_Contract_Field": {
+        "prefix": "swagger contract field",
+        "body": [
+            "$1: { type: '${2:string}', required: ${3:true}, example: '${4:ex}' },$0"
+        ],
+        "description": "swagger contract field"
+    }
+}
