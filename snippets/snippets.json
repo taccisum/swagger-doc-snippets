@@ -26,7 +26,7 @@
         "body": [
             "module.exports = {",
             "  ${1:model}: {",
-            "    $2: { type: '${3|integer,string,boolean,number|}', required: ${4|true,false|}, example: '${5:ex}' },$0",
+            "    ${2:field}: { type: '${3|integer,string,boolean,number|}', required: ${4|true,false|}, example: '${5:ex}' },$0",
             "  }",
             "};"
         ],
@@ -35,7 +35,7 @@
     "Swagger_Contract_Field": {
         "prefix": "swagger contract field",
         "body": [
-            "$1: { type: '${2|integer,string,boolean,number|}', required: ${3|true,false|}, example: '${4:ex}' },$0"
+            "${1:field}: { type: '${2|integer,string,boolean,number|}', required: ${3|true,false|}, example: '${4:ex}' },$0"
         ],
         "description": "swagger contract field"
     }
