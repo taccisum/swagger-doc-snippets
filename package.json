@@ -1,7 +1,7 @@
 {
     "name": "swagger-doc-snippets",
     "publisher": "taccisum",
-    "displayName": "swagger-doc-snippets",
+    "displayName": "swagger-doc snippets",
     "description": "code snippets for swagger-doc",
     "version": "0.0.1",
     "engines": {
