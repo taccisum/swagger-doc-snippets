@@ -6,15 +6,15 @@ this extension is code snippets for [swagger-doc](https://github.com/Ysj291823/e
 
 ### swagger doc
 
-<img src='./doc/img/doc.gif' style='height: 200px; width: 350px;'/>
+<img src='http://i2.tiimg.com/691411/580a1599329d89cb.gif' style='height: 200px; width: 350px;'/>
 
 ### swagger controller
 
-<img src='./doc/img/controller.gif' style='height: 200px; width: 450px;'/>
+<img src='http://i2.tiimg.com/691411/83645fc9c8f10135.gif' style='height: 200px; width: 450px;'/>
 
 ### swagger contract
 
-<img src='./doc/img/contract.gif' style='height: 150px; width: 600px;'/>
+<img src='http://i2.tiimg.com/691411/8d2b67abdb6b95b0.gif' style='height: 150px; width: 600px;'/>
 
 ### swagger contract field
 
