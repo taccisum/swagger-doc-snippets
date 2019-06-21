@@ -5,9 +5,9 @@
             "/**",
             "* @summary $1",
             "* @description $2",
-            "* @router ${3:get} ${4:/}",
-            "* @request ${5:query} ${6:string} ${7:field_name} ${9:desc}",
-            "* @response ${9:200} ${10:model} ${11:desc}",
+            "* @router ${3|get,post,put,delete,patch,head|} /${4}",
+            "* @request ${5|query,body,path,header,formData|} ${6|integer,string,boolean,number|} ${7:field_name} ${9:desc}",
+            "* @response ${10|200,201,202,203,204,205,206|} ${11|integer,string,boolean,number|} ${12:desc}",
             "*/"
         ],
         "description": "swagger doc"
@@ -25,8 +25,8 @@
         "prefix": "swagger contract",
         "body": [
             "module.exports = {",
-            "  $1: {",
-            "    $2: { type: '${3:string}', required: ${4:true}, example: '${5:ex}' },$0",
+            "  ${1:model}: {",
+            "    $2: { type: '${3|integer,string,boolean,number|}', required: ${4|true,false|}, example: '${5:ex}' },$0",
             "  }",
             "};"
         ],
@@ -35,7 +35,7 @@
     "Swagger_Contract_Field": {
         "prefix": "swagger contract field",
         "body": [
-            "$1: { type: '${2:string}', required: ${3:true}, example: '${4:ex}' },$0"
+            "$1: { type: '${2|integer,string,boolean,number|}', required: ${3|true,false|}, example: '${4:ex}' },$0"
         ],
         "description": "swagger contract field"
     }
