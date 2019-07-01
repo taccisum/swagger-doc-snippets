@@ -26,6 +26,10 @@ Nothing now.
 
 ## Release Notes
 
-### 0.0.1
+### v0.1.0
 
-Initial release of ...
+- 支持.ts
+
+### v0.0.1
+
+- 支持.js
